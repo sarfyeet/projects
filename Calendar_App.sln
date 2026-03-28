@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar_App.Console", "Calendar_App.Console\Calendar_App.Console.csproj", "{2B126369-3250-456F-B8AE-331C1365C3FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar_App.Application", "Calendar_App.Application\Calendar_App.Application.csproj", "{5414B4D7-D8B5-410F-97B7-968564B647FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar_App.Model", "Calendar_App.Model\Calendar_App.Model.csproj", "{B293D7F1-2DCD-437B-BFF2-D7A325B2EB52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar_App.Test", "Calendar_App.Test\Calendar_App.Test.csproj", "{7D968EF8-4619-4170-91F2-B126AAC06823}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{B7C08E6C-8159-420D-B74A-7126938295B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E0BCE34B-5CC0-4E46-8E29-9BDDEED19E41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{AF268F1E-68E3-43AE-A9C4-36F8A395A2B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{ECF35660-8B81-4410-A9C8-B71B5B80B6C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2912FBD1-DA8F-4AD0-BD63-F33058276E32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar_App.Persistence.MsSql", "Calendar_App.Persistence.MsSql\Calendar_App.Persistence.MsSql.csproj", "{23A9F87F-1568-46C4-A93A-E56D52974A73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B126369-3250-456F-B8AE-331C1365C3FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B126369-3250-456F-B8AE-331C1365C3FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B126369-3250-456F-B8AE-331C1365C3FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B126369-3250-456F-B8AE-331C1365C3FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5414B4D7-D8B5-410F-97B7-968564B647FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5414B4D7-D8B5-410F-97B7-968564B647FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5414B4D7-D8B5-410F-97B7-968564B647FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5414B4D7-D8B5-410F-97B7-968564B647FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B293D7F1-2DCD-437B-BFF2-D7A325B2EB52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B293D7F1-2DCD-437B-BFF2-D7A325B2EB52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B293D7F1-2DCD-437B-BFF2-D7A325B2EB52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B293D7F1-2DCD-437B-BFF2-D7A325B2EB52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D968EF8-4619-4170-91F2-B126AAC06823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D968EF8-4619-4170-91F2-B126AAC06823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D968EF8-4619-4170-91F2-B126AAC06823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D968EF8-4619-4170-91F2-B126AAC06823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23A9F87F-1568-46C4-A93A-E56D52974A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23A9F87F-1568-46C4-A93A-E56D52974A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23A9F87F-1568-46C4-A93A-E56D52974A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23A9F87F-1568-46C4-A93A-E56D52974A73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B126369-3250-456F-B8AE-331C1365C3FA} = {ECF35660-8B81-4410-A9C8-B71B5B80B6C3}
+		{5414B4D7-D8B5-410F-97B7-968564B647FB} = {B7C08E6C-8159-420D-B74A-7126938295B3}
+		{B293D7F1-2DCD-437B-BFF2-D7A325B2EB52} = {E0BCE34B-5CC0-4E46-8E29-9BDDEED19E41}
+		{7D968EF8-4619-4170-91F2-B126AAC06823} = {2912FBD1-DA8F-4AD0-BD63-F33058276E32}
+		{23A9F87F-1568-46C4-A93A-E56D52974A73} = {AF268F1E-68E3-43AE-A9C4-36F8A395A2B0}
+	EndGlobalSection
+EndGlobal
